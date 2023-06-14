@@ -108,18 +108,8 @@ body {
 .btns-list-1 .item {
   position: relative;
   margin-bottom: 10px;
-}
-.btns-list-1 .item::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background-color: #F96C10;
-  mix-blend-mode: overlay;
   border-radius: 20px;
-  transition: ease-in 0.3s;
 }
 .btns-list-1 .item:hover {
   opacity: 0.5;
